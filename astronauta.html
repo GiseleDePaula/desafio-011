@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico.png" type="image/x-icon">
+    <title>Projeto Astronauta</title>
+    <style>
+        #fundo {
+            height: 98vh;
+            background: lightblue url('imagens/espaco.jpg') no-repeat center center fixed ; 
+            background-size: 100% 100%;
+            position: relative;
+        }
+
+        #imagem {
+           background-image: url('imagens/astronauta.png');
+           background-size: 100% 100%;
+
+           position: absolute;
+           width: 1600px;
+           height: 1600px ;
+
+           left: 50%;
+           top: 50%; 
+           
+           transform: translate( -50%, -50%);
+           
+        }
+    </style>
+</head>
+<body>
+    <div id="fundo">
+        <div id="imagem">
+        
+        </div>
+
+    </div>
+    
+</body>
+</html>
